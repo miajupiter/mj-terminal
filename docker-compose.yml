@@ -1,0 +1,19 @@
+version: '3.7'
+
+networks:
+  default:
+    external:
+      name: main
+
+services:
+  mj-terminal:
+    build: .
+    container_name: mj-terminal
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_ENABLE_TRACKING=${ENABLE_TRACKING}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 200s
+      timeout: 200s
+      retries: 5

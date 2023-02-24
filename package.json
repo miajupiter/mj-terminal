@@ -1,0 +1,68 @@
+{
+  "name": "mj-terminal",
+  "version": "1.0.4",
+  "description": "Terminal style webapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miajupiter/mj-terminal.git"
+  },
+  "keywords": [
+    "next.js",
+    "nodejs",
+    "docker",
+    "console",
+    "terminal",
+    "bash",
+    "webapp",
+    "website"
+  ],
+  "author": "MiaJupiter Developer Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miajupiter/mj-terminal/issues"
+  },
+  "homepage": "https://github.com/miajupiter/mj-terminal#readme",
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "next": "next",
+    "preexport": "next build",
+    "export": "next export",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "axios": "^1.3.2",
+    "cowsay-browser": "^1.1.8",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.3",
+    "env-sample": "^2.1.5",
+    "next": "^13.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "@types/react": "^18.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-next": "^13.1.6",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "husky": "^8.0.3",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5"
+  }
+}
